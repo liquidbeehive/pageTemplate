@@ -1,18 +1,38 @@
 h1{
     text-align: center;
 }
-.textBox{
+.pageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #856D8D;
+    background-color: rgb(255, 255, 255);
+    
+}
+.homeIcon{
+    margin: 0.5%;
+}
+.headerLink{
+    color: #856D8D;
+    text-decoration: none;
     margin: 2%;
+}
+.headerLinkContainer{
+    border-color: aqua;
+    min-width:15.1rem;
+    margin: 0.5%;
+}
+.textBox{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .photo{
     size: 40%;
 }
 .photos{
     display: flex;
-
-}
-.header{
-    size: 50px;
 }
 .metricTitle{
     display: flex;
