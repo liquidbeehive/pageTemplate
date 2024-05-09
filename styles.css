@@ -1,3 +1,7 @@
+body {
+    margin: 0 8px;
+}
+
 h1{
     text-align: center;
 }
@@ -5,12 +9,16 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: #856D8D;
+    border-bottom: #856D8D 1px solid;
     background-color: rgb(255, 255, 255);
-    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .homeIcon{
     margin: 0.5%;
+}
+.version-screenshots{
+    margin: 0.5%
 }
 .headerLink{
     color: #856D8D;
@@ -21,6 +29,19 @@ h1{
     border-color: aqua;
     min-width:15.1rem;
     margin: 0.5%;
+}
+.homepageHeaderDescription{
+    max-width: 20%;
+}
+.homepageHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portraitIcon{
+    width:  clamp(100px, 20vw, 500px);
+    /* you can also clamp text!! */
+    height: auto;
 }
 .textBox{
     margin-left: 20%;
@@ -39,3 +60,4 @@ h1{
     background-color: #D4E8FF;
     justify-content: center;
 }
+
