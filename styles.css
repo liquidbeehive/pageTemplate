@@ -35,7 +35,7 @@ h1{
     margin: 2%;
 }
 .headerLinkContainer{
-    min-width:15.1rem;
+    min-width:16rem;
     margin: 0.5%;
     margin-bottom: 1rem;
 }
@@ -105,7 +105,7 @@ h1{
   
   .overlay-text {
     color: #856D8D; 
-    font-size: 1.5rem; 
+    font-size: 1.75rem; 
     text-align: center;
     margin: 0;
     padding: 20px;
