@@ -10,8 +10,7 @@ body {
     font-family: "Shrikhand", serif;
     font-weight: 400;
     font-style: normal;
-  }
-
+}
 
 h1{
     text-align: center;
@@ -35,7 +34,7 @@ h1{
     margin: 2%;
 }
 .headerLinkContainer{
-    min-width:16rem;
+    min-width:18rem;
     margin: 0.5%;
     margin-bottom: 1rem;
 }
@@ -122,5 +121,8 @@ h1{
     display: flex;
     background-color: #D4E8FF;
     justify-content: center;
+}
+.pageFooter{
+    margin: 10rem;
 }
 
