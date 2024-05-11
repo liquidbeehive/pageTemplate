@@ -86,7 +86,15 @@ h1{
     align-items: center;
     position: relative;
     display: inline-block;
+    height:30vw;
+    width:42.5vw;
+    overflow: hidden;
 }
+.projectPreview img {
+    width: 100%; /* Ensure the image fills its container horizontally */
+    height: 100%; /* Ensure the image fills its container vertically */
+    object-fit: cover; /* Scale the image to cover the entire container */
+  }
   
   .overlay {
     position: absolute;
